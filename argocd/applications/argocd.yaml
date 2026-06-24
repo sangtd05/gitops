@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/sangtd/gitops-heno.git
+    repoURL: https://github.com/sangtd/gitops.git
     targetRevision: main
     path: infrastructure/argocd
   destination:
