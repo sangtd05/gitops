@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/sangtd/gitops.git
+    repoURL: https://github.com/sangtd05/gitops.git
     targetRevision: main
     path: infrastructure/argocd
   destination:
