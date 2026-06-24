@@ -16,7 +16,7 @@ spec:
       values: |
         hostname: 192.168.2.139.sslip.io
         ingress.enabled: true
-        ingress.tls.source: secret
+        ingress.tls.source: rancher
         replicas: 1
         bootstrapPassword: admin
   destination:
