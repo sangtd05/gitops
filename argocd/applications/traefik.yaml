@@ -18,11 +18,9 @@ spec:
           web:
             port: 8000
             hostPort: 80
-            expose: true
           websecure:
             port: 8443
             hostPort: 443
-            expose: true
         service:
           enabled: true
           type: NodePort
