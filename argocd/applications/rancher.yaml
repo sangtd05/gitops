@@ -14,7 +14,7 @@ spec:
     helm:
       releaseName: rancher
       values: |
-        hostname: 192.168.2.139.sslip.io
+        hostname: 192.168.2.140.sslip.io
         ingress.enabled: true
         ingress.tls.source: rancher
         replicas: 1
