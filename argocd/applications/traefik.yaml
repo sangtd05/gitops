@@ -24,14 +24,15 @@ spec:
             hostPort: 443
             expose: true
         service:
-          enabled: false
+          enabled: true
+          type: NodePort
         ingressRoute:
           dashboard:
             enabled: false
         providers:
           kubernetesIngress:
             publishedService:
-              enabled: false
+              enabled: true
   destination:
     server: https://kubernetes.default.svc
     namespace: traefik
